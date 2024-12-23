@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -9,64 +10,76 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #121212; /* Fundo escuro */
-            color: #e0e0e0; /* Texto claro */
+            background-color: #121212;
+            color: #e0e0e0;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* Garantir altura total da tela */
+            min-height: 100vh;
         }
+
         .navbar {
-            background-color: #1e1e1e; /* Fundo da navbar */
-            color: #ffffff; /* Texto branco */
+            background-color: #1e1e1e;
+            color: #ffffff;
             padding: 1rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
+
         .navbar .logo {
             font-size: 1.5rem;
             font-weight: bold;
         }
+
         .navbar .logo img {
             height: 60px;
             margin-right: 10px;
             vertical-align: middle;
         }
+
         .content {
-            flex: 1; /* Faz com que o conteúdo ocupe o espaço restante */
+            flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 0 1rem;
         }
+
         .content h1 {
             font-size: 2.5rem;
             margin: 0 0 1rem;
-            color: #ffffff; /* Branco para destaque */
+            color: #ffffff;
         }
+
+        .content h2 {
+            color: #9d0af5;
+        }
+
         .content p {
             font-size: 1.2rem;
             margin: 0 0 2rem;
             line-height: 1.5;
         }
+
         .content img {
-            max-width: 300px; /* Limite para o tamanho da imagem */
+            max-width: 300px;
             margin-top: 1rem;
         }
+
         .footer {
-            background-color: #1e1e1e; /* Fundo escuro do footer */
-            color: #ffffff; /* Texto branco */
+            background-color: #1e1e1e;
+            color: #ffffff;
             text-align: center;
             padding: 0.5rem 0;
             font-size: 0.9rem;
             position: fixed;
             bottom: 0;
-            width: 100%; /* Largura total */
+            width: 100%;
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -79,10 +92,13 @@
             O verdadeiro livre comércio começa aqui.<br>
             Entre na comunidade com sua conta Nostr e comece a negociar!
         </p>
+
+        <h2>Em Construção</h2>
         <img src="building-build.gif" alt="Em Construção">
     </main>
     <footer class="footer">
         © 2024 Nostr Exchange - Todas suas LIBERDADES reservadas.
     </footer>
 </body>
+
 </html>
